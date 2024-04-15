@@ -4,3 +4,6 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.brdr {border: 1px dashed red;}
+.brdg {border: 1px dashed green;}
+.brdb {border: 1px dashed blue;}
