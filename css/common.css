@@ -420,11 +420,6 @@ footer .foot_area .snslink li + li + li a {
   background: #282828;
   font-size: 15px;
 }
-.quick_area .quick_list li {
-  text-align: center;
-  background: #282828;
-  font-size: 15px;
-}
 .quick_area .quick_list li a {
   display: block;
   padding: 15px 0;
@@ -779,7 +774,6 @@ footer .foot_area .snslink li + li + li a {
     background: #3a3e46;
     font-size: 15px;
     box-sizing: border-box;
-    border: 1px solid red;
   }
   .quick_area .quick_list li + li {
     width: 37%;
@@ -817,7 +811,7 @@ footer .foot_area .snslink li + li + li a {
     display : inline;
     font-style: normal;
   }
-  /* .quick_area .quick_list li:first-child:after {
+  .quick_area .quick_list li:first-child:after {
     content: "";
     display: inline-block;
     width: 1px;
@@ -827,30 +821,8 @@ footer .foot_area .snslink li + li + li a {
     right: 31%;
     background: #76787e;
     margin-top: -8px;
-  } */
-  .quick_area .quick_list li:first-child:after {
-    content: "";
-    display: inline-block;
-    width: 3px;
-    height: 16px;
-    position: absolute;
-    top: 50%;
-    right: 1%;
-    background: lightgray;
-    margin-top: -8px;
   }
   .quick_area .quick_list li:last-child:before {
-    content: "";
-    display: inline-block;
-    width: 3px;
-    height: 16px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    background: yellow;
-    margin-top: -8px;
-  }
-  /* .quick_area .quick_list li:last-child:before {
     content: "";
     display: inline-block;
     width: 1px;
@@ -860,7 +832,7 @@ footer .foot_area .snslink li + li + li a {
     left: 32%;
     background: #76787e;
     margin-top: -8px;
-  } */
+  }
   
   /* to_top */
   .to_top {
